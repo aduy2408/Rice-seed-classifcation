@@ -1,0 +1,658 @@
+Model,Dataset,Feature Combination,Accuracy,Precision,Recall,F1 Score,CV_scores(5fold)
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis,0.8657,0.8701,0.8657,0.8655,0.8755
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis,0.9299,0.9322,0.9299,0.9299,0.9331
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis,0.9095,0.9101,0.9095,0.9095,0.9035
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments,0.8978,0.8996,0.8978,0.8978,0.892
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments,0.9401,0.9419,0.9401,0.9401,0.9446
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments,0.9109,0.9111,0.9109,0.9109,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments,0.8745,0.8794,0.8745,0.8742,0.8783
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments,0.9255,0.9276,0.9255,0.9255,0.9316
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments,0.8934,0.8934,0.8934,0.8934,0.8927
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+LBP,0.873,0.8793,0.873,0.8727,0.869
+Support Vector Machine,TH3-5,Basic+Enhanced Color+LBP,0.9299,0.9322,0.9299,0.9299,0.9295
+Random Forest,TH3-5,Basic+Enhanced Color+LBP,0.8993,0.8994,0.8993,0.8993,0.8942
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+GLCM,0.873,0.8768,0.873,0.8728,0.8748
+Support Vector Machine,TH3-5,Basic+Enhanced Color+GLCM,0.9299,0.9318,0.9299,0.9299,0.9331
+Random Forest,TH3-5,Basic+Enhanced Color+GLCM,0.9051,0.9052,0.9051,0.9051,0.8956
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Edge,0.8745,0.878,0.8745,0.8743,0.8791
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Edge,0.9314,0.9325,0.9314,0.9314,0.9374
+Random Forest,TH3-5,Basic+Enhanced Color+Edge,0.9007,0.9009,0.9007,0.9007,0.8978
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments,0.8993,0.9009,0.8993,0.8993,0.8805
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments,0.927,0.928,0.927,0.927,0.923
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments,0.9255,0.9257,0.9255,0.9256,0.8956
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments,0.8745,0.8811,0.8745,0.8741,0.8582
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments,0.9124,0.9137,0.9124,0.9124,0.9086
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments,0.9066,0.9068,0.9066,0.9066,0.8848
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+LBP,0.8891,0.8923,0.8891,0.889,0.8647
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+LBP,0.9153,0.9163,0.9153,0.9153,0.9042
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+LBP,0.9007,0.902,0.9007,0.9007,0.8805
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+GLCM,0.8818,0.8856,0.8818,0.8816,0.8683
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+GLCM,0.9095,0.9113,0.9095,0.9095,0.9043
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+GLCM,0.8964,0.8972,0.8964,0.8964,0.8819
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Edge,0.8788,0.8841,0.8788,0.8786,0.8733
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Edge,0.9139,0.9156,0.9139,0.9139,0.9122
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Edge,0.9095,0.9101,0.9095,0.9095,0.8841
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments,0.8876,0.8881,0.8876,0.8876,0.8755
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments,0.9095,0.9099,0.9095,0.9095,0.9042
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments,0.8978,0.898,0.8978,0.8978,0.8812
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+LBP,0.8861,0.8867,0.8861,0.8861,0.874
+Support Vector Machine,TH3-5,Basic+Zernike moments+LBP,0.9182,0.9187,0.9182,0.9183,0.9114
+Random Forest,TH3-5,Basic+Zernike moments+LBP,0.8964,0.8964,0.8964,0.8963,0.8798
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+GLCM,0.9022,0.9036,0.9022,0.9022,0.8719
+Support Vector Machine,TH3-5,Basic+Zernike moments+GLCM,0.927,0.9276,0.927,0.927,0.905
+Random Forest,TH3-5,Basic+Zernike moments+GLCM,0.9095,0.9096,0.9095,0.9095,0.8834
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Edge,0.9022,0.9049,0.9022,0.9021,0.8848
+Support Vector Machine,TH3-5,Basic+Zernike moments+Edge,0.9153,0.9156,0.9153,0.9153,0.9179
+Random Forest,TH3-5,Basic+Zernike moments+Edge,0.9022,0.9022,0.9022,0.9022,0.8841
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+LBP,0.8526,0.8592,0.8526,0.8522,0.8604
+Support Vector Machine,TH3-5,Basic+Hu moments+LBP,0.9022,0.9039,0.9022,0.9022,0.8891
+Random Forest,TH3-5,Basic+Hu moments+LBP,0.8934,0.8938,0.8934,0.8934,0.8589
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+GLCM,0.8628,0.8693,0.8628,0.8624,0.8618
+Support Vector Machine,TH3-5,Basic+Hu moments+GLCM,0.8993,0.9004,0.8993,0.8993,0.8935
+Random Forest,TH3-5,Basic+Hu moments+GLCM,0.892,0.8921,0.892,0.892,0.8704
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+Edge,0.8686,0.8758,0.8686,0.8682,0.8575
+Support Vector Machine,TH3-5,Basic+Hu moments+Edge,0.9007,0.9015,0.9007,0.9007,0.9007
+Random Forest,TH3-5,Basic+Hu moments+Edge,0.8905,0.8907,0.8905,0.8905,0.8683
+K-Nearest Neighbors,TH3-5,Basic+LBP+GLCM,0.8599,0.8638,0.8599,0.8597,0.8553
+Support Vector Machine,TH3-5,Basic+LBP+GLCM,0.8964,0.897,0.8964,0.8964,0.8877
+Random Forest,TH3-5,Basic+LBP+GLCM,0.8847,0.8848,0.8847,0.8847,0.8675
+K-Nearest Neighbors,TH3-5,Basic+LBP+Edge,0.8774,0.8824,0.8774,0.8772,0.8668
+Support Vector Machine,TH3-5,Basic+LBP+Edge,0.8949,0.8955,0.8949,0.8949,0.8927
+Random Forest,TH3-5,Basic+LBP+Edge,0.8847,0.8847,0.8847,0.8847,0.8697
+K-Nearest Neighbors,TH3-5,Basic+GLCM+Edge,0.8788,0.8836,0.8788,0.8786,0.8553
+Support Vector Machine,TH3-5,Basic+GLCM+Edge,0.9007,0.901,0.9007,0.9007,0.8964
+Random Forest,TH3-5,Basic+GLCM+Edge,0.9022,0.9023,0.9022,0.9022,0.8712
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.8876,0.8924,0.8876,0.8874,0.869
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9474,0.9488,0.9474,0.9474,0.9316
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9095,0.9096,0.9095,0.9095,0.8963
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments,0.8496,0.8581,0.8496,0.8491,0.838
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments,0.9153,0.9169,0.9153,0.9153,0.9057
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments,0.8818,0.8818,0.8818,0.8817,0.8726
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP,0.8102,0.8146,0.8102,0.8099,0.7912
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP,0.9095,0.9117,0.9095,0.9095,0.8906
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP,0.8467,0.8472,0.8467,0.8467,0.8459
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM,0.8219,0.8295,0.8219,0.8213,0.8035
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM,0.8949,0.8959,0.8949,0.8949,0.8827
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM,0.8584,0.8586,0.8584,0.8584,0.8575
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Edge,0.8248,0.8319,0.8248,0.8243,0.7991
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Edge,0.9007,0.9017,0.9007,0.9007,0.8927
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Edge,0.8701,0.8703,0.8701,0.8701,0.8582
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments,0.8774,0.881,0.8774,0.8772,0.8646
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments,0.9255,0.9258,0.9255,0.9256,0.9172
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments,0.8861,0.8864,0.8861,0.8861,0.892
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+LBP,0.9036,0.9062,0.9036,0.9036,0.8913
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+LBP,0.9474,0.9482,0.9474,0.9474,0.9345
+Random Forest,TH3-5,Enhanced Color+Zernike moments+LBP,0.8949,0.8949,0.8949,0.8949,0.9006
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+GLCM,0.8861,0.8918,0.8861,0.8859,0.869
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+GLCM,0.9299,0.9315,0.9299,0.9299,0.9273
+Random Forest,TH3-5,Enhanced Color+Zernike moments+GLCM,0.9051,0.9052,0.9051,0.9051,0.8899
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Edge,0.8759,0.8812,0.8759,0.8757,0.8733
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Edge,0.927,0.9278,0.927,0.927,0.9215
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Edge,0.8964,0.8963,0.8964,0.8963,0.8884
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+LBP,0.8584,0.8657,0.8584,0.858,0.8517
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+LBP,0.9226,0.9238,0.9226,0.9226,0.9208
+Random Forest,TH3-5,Enhanced Color+Hu moments+LBP,0.8788,0.8788,0.8788,0.8788,0.8884
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+GLCM,0.8496,0.8568,0.8496,0.8492,0.8416
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+GLCM,0.9095,0.9117,0.9095,0.9095,0.9021
+Random Forest,TH3-5,Enhanced Color+Hu moments+GLCM,0.8788,0.8788,0.8788,0.8788,0.8697
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+Edge,0.8277,0.8367,0.8277,0.827,0.8251
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+Edge,0.8978,0.8999,0.8978,0.8978,0.8963
+Random Forest,TH3-5,Enhanced Color+Hu moments+Edge,0.8759,0.8763,0.8759,0.8759,0.8783
+K-Nearest Neighbors,TH3-5,Enhanced Color+LBP+GLCM,0.8234,0.8313,0.8234,0.8227,0.8143
+Support Vector Machine,TH3-5,Enhanced Color+LBP+GLCM,0.9007,0.9025,0.9007,0.9007,0.9064
+Random Forest,TH3-5,Enhanced Color+LBP+GLCM,0.8569,0.8571,0.8569,0.857,0.8582
+K-Nearest Neighbors,TH3-5,Enhanced Color+LBP+Edge,0.8204,0.8266,0.8204,0.82,0.8128
+Support Vector Machine,TH3-5,Enhanced Color+LBP+Edge,0.908,0.9089,0.908,0.908,0.9071
+Random Forest,TH3-5,Enhanced Color+LBP+Edge,0.8686,0.8688,0.8686,0.8686,0.8546
+K-Nearest Neighbors,TH3-5,Enhanced Color+GLCM+Edge,0.8117,0.8172,0.8117,0.8112,0.8157
+Support Vector Machine,TH3-5,Enhanced Color+GLCM+Edge,0.892,0.8941,0.892,0.8919,0.8841
+Random Forest,TH3-5,Enhanced Color+GLCM+Edge,0.8482,0.8489,0.8482,0.8482,0.8438
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments,0.8438,0.8444,0.8438,0.8438,0.8294
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments,0.9066,0.9081,0.9066,0.9066,0.887
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments,0.8847,0.8848,0.8847,0.8847,0.8798
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+LBP,0.8628,0.8637,0.8628,0.8628,0.8546
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+LBP,0.9153,0.9161,0.9153,0.9153,0.9107
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+LBP,0.9022,0.9024,0.9022,0.9021,0.8992
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM,0.8745,0.8785,0.8745,0.8743,0.8474
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM,0.9139,0.9156,0.9139,0.9139,0.892
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM,0.8934,0.8936,0.8934,0.8934,0.8798
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Edge,0.8715,0.8723,0.8715,0.8715,0.8395
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Edge,0.9139,0.9159,0.9139,0.9138,0.8978
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Edge,0.8832,0.8834,0.8832,0.8832,0.8762
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+LBP,0.8219,0.8244,0.8219,0.8218,0.8243
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+LBP,0.8891,0.8903,0.8891,0.889,0.8834
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+LBP,0.8715,0.8717,0.8715,0.8716,0.8776
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+GLCM,0.8029,0.8084,0.8029,0.8024,0.7955
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+GLCM,0.8657,0.8681,0.8657,0.8656,0.8423
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+GLCM,0.8584,0.8585,0.8584,0.8584,0.8402
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+Edge,0.8,0.8054,0.8,0.7995,0.7992
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+Edge,0.8409,0.8458,0.8409,0.8406,0.8416
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+Edge,0.8569,0.8575,0.8569,0.857,0.8395
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+LBP+GLCM,0.7854,0.7855,0.7854,0.7854,0.7883
+Support Vector Machine,TH3-5,Skewness and Kurtosis+LBP+GLCM,0.8526,0.8536,0.8526,0.8526,0.8596
+Random Forest,TH3-5,Skewness and Kurtosis+LBP+GLCM,0.8321,0.8322,0.8321,0.8321,0.8395
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+LBP+Edge,0.7737,0.7737,0.7737,0.7737,0.7718
+Support Vector Machine,TH3-5,Skewness and Kurtosis+LBP+Edge,0.8555,0.8565,0.8555,0.8555,0.8582
+Random Forest,TH3-5,Skewness and Kurtosis+LBP+Edge,0.8161,0.816,0.8161,0.816,0.8366
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+GLCM+Edge,0.7708,0.7758,0.7708,0.7703,0.7574
+Support Vector Machine,TH3-5,Skewness and Kurtosis+GLCM+Edge,0.8204,0.8217,0.8204,0.8204,0.8186
+Random Forest,TH3-5,Skewness and Kurtosis+GLCM+Edge,0.7927,0.7931,0.7927,0.7927,0.7941
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+LBP,0.8219,0.8233,0.8219,0.8219,0.8049
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+LBP,0.873,0.8741,0.873,0.873,0.8668
+Random Forest,TH3-5,Zernike moments+Hu moments+LBP,0.8423,0.8429,0.8423,0.8424,0.8402
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+GLCM,0.8467,0.8483,0.8467,0.8467,0.8179
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+GLCM,0.8905,0.8916,0.8905,0.8905,0.8654
+Random Forest,TH3-5,Zernike moments+Hu moments+GLCM,0.8628,0.8628,0.8628,0.8628,0.8503
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+Edge,0.8073,0.8094,0.8073,0.8072,0.7754
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+Edge,0.8526,0.855,0.8526,0.8525,0.8272
+Random Forest,TH3-5,Zernike moments+Hu moments+Edge,0.8234,0.8246,0.8234,0.8233,0.825
+K-Nearest Neighbors,TH3-5,Zernike moments+LBP+GLCM,0.8628,0.8637,0.8628,0.8628,0.8582
+Support Vector Machine,TH3-5,Zernike moments+LBP+GLCM,0.8978,0.8988,0.8978,0.8978,0.8934
+Random Forest,TH3-5,Zernike moments+LBP+GLCM,0.8701,0.8701,0.8701,0.8701,0.8661
+K-Nearest Neighbors,TH3-5,Zernike moments+LBP+Edge,0.8423,0.8431,0.8423,0.8423,0.8207
+Support Vector Machine,TH3-5,Zernike moments+LBP+Edge,0.8803,0.8818,0.8803,0.8803,0.8776
+Random Forest,TH3-5,Zernike moments+LBP+Edge,0.8394,0.8395,0.8394,0.8394,0.8351
+K-Nearest Neighbors,TH3-5,Zernike moments+GLCM+Edge,0.8526,0.8562,0.8526,0.8524,0.8322
+Support Vector Machine,TH3-5,Zernike moments+GLCM+Edge,0.8847,0.8866,0.8847,0.8846,0.8754
+Random Forest,TH3-5,Zernike moments+GLCM+Edge,0.8657,0.8657,0.8657,0.8657,0.8517
+K-Nearest Neighbors,TH3-5,Hu moments+LBP+GLCM,0.8204,0.8235,0.8204,0.8203,0.8114
+Support Vector Machine,TH3-5,Hu moments+LBP+GLCM,0.8599,0.8616,0.8599,0.8598,0.8488
+Random Forest,TH3-5,Hu moments+LBP+GLCM,0.8496,0.8499,0.8496,0.8497,0.8503
+K-Nearest Neighbors,TH3-5,Hu moments+LBP+Edge,0.8044,0.8101,0.8044,0.8039,0.7588
+Support Vector Machine,TH3-5,Hu moments+LBP+Edge,0.8496,0.8529,0.8496,0.8495,0.8251
+Random Forest,TH3-5,Hu moments+LBP+Edge,0.8248,0.8255,0.8248,0.8248,0.8171
+K-Nearest Neighbors,TH3-5,Hu moments+GLCM+Edge,0.7664,0.7687,0.7664,0.7663,0.7883
+Support Vector Machine,TH3-5,Hu moments+GLCM+Edge,0.8175,0.8222,0.8175,0.8172,0.8121
+Random Forest,TH3-5,Hu moments+GLCM+Edge,0.8175,0.818,0.8175,0.8175,0.82
+K-Nearest Neighbors,TH3-5,LBP+GLCM+Edge,0.7898,0.7902,0.7898,0.7898,0.7603
+Support Vector Machine,TH3-5,LBP+GLCM+Edge,0.8044,0.8051,0.8044,0.8044,0.8071
+Random Forest,TH3-5,LBP+GLCM+Edge,0.7942,0.7941,0.7942,0.7942,0.7869
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.8993,0.9024,0.8993,0.8992,0.8906
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9518,0.9527,0.9518,0.9518,0.9417
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.927,0.927,0.927,0.927,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.873,0.8777,0.873,0.8728,0.874
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.9387,0.9403,0.9387,0.9387,0.9352
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.9066,0.9067,0.9066,0.9066,0.8963
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.8803,0.8835,0.8803,0.8802,0.8661
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.9358,0.9377,0.9358,0.9358,0.9359
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.9066,0.9073,0.9066,0.9066,0.9007
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.873,0.8772,0.873,0.8728,0.8676
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.9372,0.9393,0.9372,0.9372,0.928
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.9124,0.9125,0.9124,0.9124,0.8992
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.8759,0.8807,0.8759,0.8757,0.869
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.9358,0.9373,0.9358,0.9358,0.9316
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.9036,0.9039,0.9036,0.9037,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments,0.8978,0.8999,0.8978,0.8978,0.8899
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments,0.9343,0.9357,0.9343,0.9343,0.9366
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments,0.9139,0.9141,0.9139,0.9138,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+LBP,0.9007,0.9029,0.9007,0.9007,0.8913
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+LBP,0.9401,0.9413,0.9401,0.9401,0.9395
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+LBP,0.9109,0.9111,0.9109,0.9109,0.9014
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM,0.8964,0.8998,0.8964,0.8963,0.8819
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM,0.9445,0.9458,0.9445,0.9445,0.9417
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM,0.9197,0.9197,0.9197,0.9197,0.8992
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Edge,0.9051,0.9082,0.9051,0.905,0.887
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Edge,0.9431,0.9436,0.9431,0.9431,0.9424
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Edge,0.9124,0.9125,0.9124,0.9124,0.9014
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+LBP,0.8832,0.8883,0.8832,0.883,0.8683
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+LBP,0.927,0.9292,0.927,0.927,0.9302
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+LBP,0.908,0.908,0.908,0.908,0.8906
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+GLCM,0.8832,0.8883,0.8832,0.883,0.8697
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+GLCM,0.9226,0.9243,0.9226,0.9226,0.9309
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+GLCM,0.9109,0.911,0.9109,0.911,0.8913
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+Edge,0.8759,0.8835,0.8759,0.8755,0.8769
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+Edge,0.9299,0.9309,0.9299,0.9299,0.9359
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+Edge,0.9022,0.9023,0.9022,0.9022,0.8963
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+LBP+GLCM,0.873,0.8768,0.873,0.8728,0.864
+Support Vector Machine,TH3-5,Basic+Enhanced Color+LBP+GLCM,0.9285,0.9299,0.9285,0.9285,0.9323
+Random Forest,TH3-5,Basic+Enhanced Color+LBP+GLCM,0.9022,0.9022,0.9022,0.9022,0.8927
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+LBP+Edge,0.8847,0.8895,0.8847,0.8845,0.8748
+Support Vector Machine,TH3-5,Basic+Enhanced Color+LBP+Edge,0.9314,0.9331,0.9314,0.9314,0.9352
+Random Forest,TH3-5,Basic+Enhanced Color+LBP+Edge,0.8993,0.8993,0.8993,0.8993,0.8906
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+GLCM+Edge,0.8686,0.8731,0.8686,0.8684,0.8704
+Support Vector Machine,TH3-5,Basic+Enhanced Color+GLCM+Edge,0.9372,0.9379,0.9372,0.9372,0.9338
+Random Forest,TH3-5,Basic+Enhanced Color+GLCM+Edge,0.9109,0.911,0.9109,0.911,0.8942
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.8905,0.8928,0.8905,0.8905,0.8769
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.9285,0.9294,0.9285,0.9285,0.9186
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.9226,0.9227,0.9226,0.9226,0.8913
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.8949,0.8978,0.8949,0.8948,0.8791
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.927,0.9278,0.927,0.927,0.923
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.9212,0.9212,0.9212,0.9212,0.892
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.9066,0.9091,0.9066,0.9065,0.8733
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.9299,0.9307,0.9299,0.9299,0.9208
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.9285,0.9285,0.9285,0.9285,0.8899
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9226,0.925,0.9226,0.9226,0.8747
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9255,0.9267,0.9255,0.9255,0.9273
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9241,0.9241,0.9241,0.9241,0.8942
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP,0.8686,0.8741,0.8686,0.8684,0.8596
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP,0.9197,0.9211,0.9197,0.9197,0.9079
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP,0.908,0.9089,0.908,0.908,0.8834
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.8847,0.8912,0.8847,0.8844,0.8553
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.9182,0.9198,0.9182,0.9182,0.9064
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.9124,0.9127,0.9124,0.9124,0.8855
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+Edge,0.8876,0.8935,0.8876,0.8874,0.8683
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+Edge,0.9153,0.9179,0.9153,0.9153,0.9129
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+Edge,0.908,0.9087,0.908,0.908,0.8841
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM,0.8715,0.8739,0.8715,0.8715,0.8618
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM,0.9168,0.9179,0.9168,0.9168,0.9028
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM,0.908,0.9087,0.908,0.908,0.8855
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+LBP+Edge,0.8818,0.8852,0.8818,0.8816,0.869
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+LBP+Edge,0.9168,0.9185,0.9168,0.9168,0.91
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+LBP+Edge,0.9007,0.9015,0.9007,0.9007,0.8841
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+GLCM+Edge,0.8759,0.8835,0.8759,0.8755,0.856
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+GLCM+Edge,0.9197,0.9208,0.9197,0.9197,0.9043
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+GLCM+Edge,0.9095,0.9099,0.9095,0.9095,0.8798
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+LBP,0.8876,0.8887,0.8876,0.8876,0.8769
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+LBP,0.9095,0.9101,0.9095,0.9095,0.9093
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+LBP,0.9022,0.9024,0.9022,0.9021,0.8747
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+GLCM,0.8993,0.9004,0.8993,0.8993,0.8661
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+GLCM,0.9255,0.9262,0.9255,0.9256,0.9057
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+GLCM,0.9066,0.9067,0.9066,0.9065,0.8812
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+Edge,0.8891,0.8912,0.8891,0.889,0.8755
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+Edge,0.9153,0.9155,0.9153,0.9153,0.9122
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+Edge,0.9007,0.9008,0.9007,0.9007,0.8848
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+LBP+GLCM,0.8978,0.8999,0.8978,0.8978,0.8719
+Support Vector Machine,TH3-5,Basic+Zernike moments+LBP+GLCM,0.9197,0.9208,0.9197,0.9197,0.9035
+Random Forest,TH3-5,Basic+Zernike moments+LBP+GLCM,0.9051,0.9051,0.9051,0.9051,0.8805
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+LBP+Edge,0.9051,0.9068,0.9051,0.9051,0.8783
+Support Vector Machine,TH3-5,Basic+Zernike moments+LBP+Edge,0.9095,0.9098,0.9095,0.9095,0.9107
+Random Forest,TH3-5,Basic+Zernike moments+LBP+Edge,0.8949,0.895,0.8949,0.8948,0.8805
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+GLCM+Edge,0.9095,0.9117,0.9095,0.9095,0.874
+Support Vector Machine,TH3-5,Basic+Zernike moments+GLCM+Edge,0.9212,0.922,0.9212,0.9212,0.9057
+Random Forest,TH3-5,Basic+Zernike moments+GLCM+Edge,0.9007,0.9009,0.9007,0.9007,0.8848
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+LBP+GLCM,0.8642,0.8699,0.8642,0.8639,0.8568
+Support Vector Machine,TH3-5,Basic+Hu moments+LBP+GLCM,0.8934,0.8948,0.8934,0.8934,0.8877
+Random Forest,TH3-5,Basic+Hu moments+LBP+GLCM,0.892,0.8921,0.892,0.892,0.8675
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+LBP+Edge,0.8686,0.8735,0.8686,0.8684,0.864
+Support Vector Machine,TH3-5,Basic+Hu moments+LBP+Edge,0.8993,0.8999,0.8993,0.8993,0.8978
+Random Forest,TH3-5,Basic+Hu moments+LBP+Edge,0.8905,0.8906,0.8905,0.8905,0.8618
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+GLCM+Edge,0.8642,0.8716,0.8642,0.8638,0.8639
+Support Vector Machine,TH3-5,Basic+Hu moments+GLCM+Edge,0.908,0.9085,0.908,0.908,0.8956
+Random Forest,TH3-5,Basic+Hu moments+GLCM+Edge,0.8978,0.8978,0.8978,0.8978,0.8762
+K-Nearest Neighbors,TH3-5,Basic+LBP+GLCM+Edge,0.873,0.8772,0.873,0.8728,0.8611
+Support Vector Machine,TH3-5,Basic+LBP+GLCM+Edge,0.8934,0.8939,0.8934,0.8934,0.887
+Random Forest,TH3-5,Basic+LBP+GLCM+Edge,0.8891,0.8891,0.8891,0.8891,0.8704
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.8759,0.8812,0.8759,0.8757,0.869
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9474,0.9488,0.9474,0.9474,0.928
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.908,0.9082,0.908,0.908,0.8956
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.8949,0.8982,0.8949,0.8948,0.8949
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9489,0.9498,0.9489,0.9489,0.941
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9066,0.9067,0.9066,0.9066,0.9107
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.8759,0.8807,0.8759,0.8757,0.8683
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9504,0.9517,0.9504,0.9504,0.9323
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9139,0.9141,0.9139,0.9139,0.8927
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.8847,0.8912,0.8847,0.8844,0.8697
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.946,0.9481,0.946,0.946,0.9366
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9095,0.9097,0.9095,0.9095,0.9014
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.8613,0.8664,0.8613,0.8611,0.8496
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9358,0.9373,0.9358,0.9358,0.9331
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.8993,0.8994,0.8993,0.8993,0.8963
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.8307,0.8397,0.8307,0.8299,0.8359
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9139,0.915,0.9139,0.9139,0.9057
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.8905,0.8905,0.8905,0.8905,0.8805
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.8365,0.845,0.8365,0.8359,0.8265
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9139,0.9156,0.9139,0.9139,0.9143
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.8905,0.8905,0.8905,0.8905,0.8827
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.838,0.8438,0.838,0.8376,0.8186
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.9153,0.9166,0.9153,0.9153,0.9057
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.8657,0.8661,0.8657,0.8657,0.8625
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.8365,0.8421,0.8365,0.8361,0.8229
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9255,0.926,0.9255,0.9256,0.9086
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.8774,0.8775,0.8774,0.8774,0.8654
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.819,0.8271,0.819,0.8183,0.8092
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9066,0.9073,0.9066,0.9066,0.8913
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.8613,0.8617,0.8613,0.8613,0.8553
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP,0.8964,0.8983,0.8964,0.8963,0.8827
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP,0.9401,0.9411,0.9401,0.9401,0.9338
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP,0.908,0.908,0.908,0.908,0.8985
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM,0.8788,0.8822,0.8788,0.8787,0.8661
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM,0.927,0.928,0.927,0.927,0.9251
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM,0.8847,0.8847,0.8847,0.8846,0.8906
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+Edge,0.8686,0.8735,0.8686,0.8684,0.8704
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+Edge,0.9212,0.9218,0.9212,0.9212,0.9215
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+Edge,0.892,0.892,0.892,0.892,0.8956
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM,0.8978,0.9007,0.8978,0.8977,0.8827
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM,0.9416,0.9429,0.9416,0.9416,0.9402
+Random Forest,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM,0.9109,0.9111,0.9109,0.911,0.9028
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+LBP+Edge,0.8993,0.9032,0.8993,0.8992,0.8949
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+LBP+Edge,0.946,0.9463,0.946,0.946,0.9366
+Random Forest,TH3-5,Enhanced Color+Zernike moments+LBP+Edge,0.9022,0.9024,0.9022,0.9021,0.9014
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+GLCM+Edge,0.8861,0.8912,0.8861,0.8859,0.869
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+GLCM+Edge,0.9343,0.9355,0.9343,0.9343,0.9287
+Random Forest,TH3-5,Enhanced Color+Zernike moments+GLCM+Edge,0.892,0.892,0.892,0.892,0.8913
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+LBP+GLCM,0.8453,0.8505,0.8453,0.845,0.8539
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+LBP+GLCM,0.9255,0.927,0.9255,0.9255,0.9309
+Random Forest,TH3-5,Enhanced Color+Hu moments+LBP+GLCM,0.8847,0.8847,0.8847,0.8847,0.8899
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+LBP+Edge,0.8569,0.8652,0.8569,0.8564,0.8575
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+LBP+Edge,0.927,0.9283,0.927,0.927,0.9237
+Random Forest,TH3-5,Enhanced Color+Hu moments+LBP+Edge,0.8876,0.8876,0.8876,0.8876,0.8927
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+GLCM+Edge,0.8394,0.8473,0.8394,0.8389,0.8344
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+GLCM+Edge,0.9168,0.9185,0.9168,0.9168,0.9057
+Random Forest,TH3-5,Enhanced Color+Hu moments+GLCM+Edge,0.8774,0.8774,0.8774,0.8774,0.874
+K-Nearest Neighbors,TH3-5,Enhanced Color+LBP+GLCM+Edge,0.8263,0.8337,0.8263,0.8257,0.8308
+Support Vector Machine,TH3-5,Enhanced Color+LBP+GLCM+Edge,0.908,0.9085,0.908,0.908,0.9107
+Random Forest,TH3-5,Enhanced Color+LBP+GLCM+Edge,0.8613,0.8618,0.8613,0.8613,0.864
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.8672,0.8675,0.8672,0.8672,0.8603
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9212,0.9218,0.9212,0.9212,0.9129
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9036,0.9038,0.9036,0.9036,0.8906
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.8745,0.8772,0.8745,0.8744,0.8409
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9109,0.9123,0.9109,0.9109,0.8899
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.8993,0.8994,0.8993,0.8993,0.8791
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.8453,0.8467,0.8453,0.8452,0.8258
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9124,0.9146,0.9124,0.9124,0.8927
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.8832,0.8833,0.8832,0.8832,0.8812
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.8832,0.8853,0.8832,0.8832,0.8639
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9241,0.9247,0.9241,0.9241,0.9143
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9095,0.9095,0.9095,0.9095,0.8927
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.8686,0.8696,0.8686,0.8686,0.8474
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9182,0.9193,0.9182,0.9183,0.9158
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.908,0.9082,0.908,0.908,0.8956
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.8818,0.8856,0.8818,0.8816,0.8452
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9197,0.9211,0.9197,0.9197,0.8942
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.8934,0.8935,0.8934,0.8934,0.8812
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.8365,0.8387,0.8365,0.8364,0.8243
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.892,0.8927,0.892,0.892,0.8906
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.873,0.8736,0.873,0.8729,0.8747
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+LBP+Edge,0.835,0.8382,0.835,0.8349,0.8171
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+LBP+Edge,0.892,0.8941,0.892,0.8919,0.8927
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+LBP+Edge,0.8759,0.8759,0.8759,0.8759,0.879
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.7869,0.7933,0.7869,0.7862,0.797
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8599,0.8616,0.8599,0.8598,0.856
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8613,0.8613,0.8613,0.8613,0.851
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+LBP+GLCM+Edge,0.8015,0.8026,0.8015,0.8015,0.7876
+Support Vector Machine,TH3-5,Skewness and Kurtosis+LBP+GLCM+Edge,0.8569,0.8581,0.8569,0.8569,0.8661
+Random Forest,TH3-5,Skewness and Kurtosis+LBP+GLCM+Edge,0.8292,0.8292,0.8292,0.8292,0.8431
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+LBP+GLCM,0.8569,0.8573,0.8569,0.857,0.8567
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+LBP+GLCM,0.8993,0.9004,0.8993,0.8993,0.8927
+Random Forest,TH3-5,Zernike moments+Hu moments+LBP+GLCM,0.8599,0.8599,0.8599,0.8598,0.8632
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+LBP+Edge,0.835,0.8359,0.835,0.835,0.8171
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+LBP+Edge,0.8788,0.8804,0.8788,0.8788,0.8754
+Random Forest,TH3-5,Zernike moments+Hu moments+LBP+Edge,0.8423,0.8425,0.8423,0.8424,0.8423
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+GLCM+Edge,0.8482,0.852,0.8482,0.848,0.8287
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+GLCM+Edge,0.8803,0.8831,0.8803,0.8802,0.8675
+Random Forest,TH3-5,Zernike moments+Hu moments+GLCM+Edge,0.8686,0.8689,0.8686,0.8686,0.8438
+K-Nearest Neighbors,TH3-5,Zernike moments+LBP+GLCM+Edge,0.8818,0.8847,0.8818,0.8817,0.851
+Support Vector Machine,TH3-5,Zernike moments+LBP+GLCM+Edge,0.9022,0.9033,0.9022,0.9022,0.8934
+Random Forest,TH3-5,Zernike moments+LBP+GLCM+Edge,0.8584,0.8584,0.8584,0.8584,0.8625
+K-Nearest Neighbors,TH3-5,Hu moments+LBP+GLCM+Edge,0.8219,0.8264,0.8219,0.8216,0.8243
+Support Vector Machine,TH3-5,Hu moments+LBP+GLCM+Edge,0.8555,0.8576,0.8555,0.8554,0.8589
+Random Forest,TH3-5,Hu moments+LBP+GLCM+Edge,0.8482,0.8483,0.8482,0.8482,0.8488
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9036,0.9062,0.9036,0.9036,0.8891
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9445,0.9453,0.9445,0.9445,0.9446
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9241,0.9241,0.9241,0.9241,0.9064
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.908,0.9104,0.908,0.908,0.8906
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9445,0.9456,0.9445,0.9445,0.9403
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9226,0.9226,0.9226,0.9226,0.9043
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.8949,0.8978,0.8949,0.8948,0.8819
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9474,0.949,0.9474,0.9474,0.9374
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9241,0.9241,0.9241,0.9241,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.8964,0.8998,0.8964,0.8963,0.8877
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9489,0.9501,0.9489,0.9489,0.9439
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9314,0.9314,0.9314,0.9314,0.9064
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.8847,0.8885,0.8847,0.8845,0.869
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9358,0.9377,0.9358,0.9358,0.9345
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9109,0.9111,0.9109,0.911,0.9093
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.8861,0.8907,0.8861,0.886,0.8675
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9358,0.9377,0.9358,0.9358,0.9316
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9109,0.9112,0.9109,0.911,0.8963
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.8774,0.8824,0.8774,0.8772,0.8668
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9299,0.9322,0.9299,0.9299,0.9316
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9022,0.9025,0.9022,0.9022,0.9035
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.8759,0.8797,0.8759,0.8758,0.8697
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.9372,0.939,0.9372,0.9372,0.9309
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.908,0.9087,0.908,0.908,0.8985
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.8876,0.8915,0.8876,0.8875,0.8697
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9372,0.9387,0.9372,0.9372,0.9323
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.908,0.9082,0.908,0.908,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.8613,0.8675,0.8613,0.861,0.8647
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9431,0.9452,0.9431,0.943,0.9331
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9124,0.9126,0.9124,0.9124,0.8971
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9036,0.9058,0.9036,0.9036,0.8877
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9387,0.94,0.9387,0.9387,0.9323
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9168,0.9168,0.9168,0.9168,0.8999
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.892,0.8952,0.892,0.8919,0.8834
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.9431,0.9445,0.9431,0.9431,0.9359
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.9197,0.9197,0.9197,0.9197,0.8978
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.8978,0.9011,0.8978,0.8977,0.8891
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.9416,0.9424,0.9416,0.9416,0.9366
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.9182,0.9183,0.9182,0.9182,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.9022,0.9045,0.9022,0.9021,0.8863
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.9387,0.9403,0.9387,0.9387,0.9374
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.9153,0.9153,0.9153,0.9153,0.9014
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.9007,0.9032,0.9007,0.9007,0.8942
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.946,0.9465,0.946,0.946,0.941
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.9153,0.9154,0.9153,0.9153,0.8999
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9095,0.9128,0.9095,0.9094,0.8877
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9431,0.9442,0.9431,0.9431,0.9417
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9182,0.9183,0.9182,0.9182,0.8999
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.8832,0.8894,0.8832,0.8829,0.8748
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.9285,0.9299,0.9285,0.9285,0.9316
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.9022,0.9022,0.9022,0.9022,0.8942
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+LBP+Edge,0.8832,0.8888,0.8832,0.883,0.8755
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+LBP+Edge,0.9343,0.9357,0.9343,0.9343,0.9359
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+LBP+Edge,0.9036,0.9037,0.9036,0.9036,0.8913
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.8686,0.8735,0.8686,0.8684,0.8668
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.9328,0.9344,0.9328,0.9328,0.9338
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.9095,0.9095,0.9095,0.9095,0.8913
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+LBP+GLCM+Edge,0.8745,0.8805,0.8745,0.8742,0.8625
+Support Vector Machine,TH3-5,Basic+Enhanced Color+LBP+GLCM+Edge,0.9358,0.9373,0.9358,0.9358,0.9331
+Random Forest,TH3-5,Basic+Enhanced Color+LBP+GLCM+Edge,0.9109,0.9112,0.9109,0.911,0.9007
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.8891,0.8923,0.8891,0.889,0.8812
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9241,0.9249,0.9241,0.9241,0.9186
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9182,0.9182,0.9182,0.9182,0.8935
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9051,0.9078,0.9051,0.9051,0.8769
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9328,0.9334,0.9328,0.9329,0.9172
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.927,0.927,0.927,0.927,0.8899
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.8978,0.9003,0.8978,0.8978,0.8733
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9197,0.9206,0.9197,0.9197,0.9295
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9197,0.9198,0.9197,0.9197,0.892
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.8964,0.8994,0.8964,0.8963,0.8755
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9299,0.9309,0.9299,0.9299,0.9208
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9197,0.9197,0.9197,0.9197,0.8884
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.908,0.9108,0.908,0.908,0.8769
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.927,0.9278,0.927,0.927,0.9251
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9182,0.9183,0.9182,0.9182,0.8906
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9066,0.9108,0.9066,0.9065,0.8805
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9299,0.9307,0.9299,0.9299,0.9244
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9255,0.9256,0.9255,0.9255,0.8942
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.8788,0.8827,0.8788,0.8787,0.869
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9241,0.9254,0.9241,0.9241,0.9043
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9095,0.9097,0.9095,0.9095,0.8819
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.8759,0.8817,0.8759,0.8757,0.8668
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9197,0.9214,0.9197,0.9197,0.9136
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9022,0.9025,0.9022,0.9022,0.8834
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8686,0.8758,0.8686,0.8682,0.8661
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9212,0.923,0.9212,0.9211,0.9057
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9109,0.9114,0.9109,0.911,0.8848
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.8701,0.8743,0.8701,0.8699,0.8596
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.9182,0.9195,0.9182,0.9182,0.905
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.908,0.9087,0.908,0.908,0.8855
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9007,0.902,0.9007,0.9007,0.8812
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9182,0.919,0.9182,0.9183,0.9007
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9036,0.9038,0.9036,0.9036,0.8827
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+LBP+Edge,0.9007,0.902,0.9007,0.9007,0.8827
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+LBP+Edge,0.9168,0.9171,0.9168,0.9168,0.9136
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+LBP+Edge,0.908,0.9081,0.908,0.908,0.8769
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+GLCM+Edge,0.9036,0.9052,0.9036,0.9036,0.8726
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+GLCM+Edge,0.927,0.9278,0.927,0.927,0.9043
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+GLCM+Edge,0.9095,0.9096,0.9095,0.9095,0.8776
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+LBP+GLCM+Edge,0.9036,0.9058,0.9036,0.9036,0.8726
+Support Vector Machine,TH3-5,Basic+Zernike moments+LBP+GLCM+Edge,0.9212,0.9218,0.9212,0.9212,0.905
+Random Forest,TH3-5,Basic+Zernike moments+LBP+GLCM+Edge,0.9036,0.9038,0.9036,0.9036,0.8769
+K-Nearest Neighbors,TH3-5,Basic+Hu moments+LBP+GLCM+Edge,0.8745,0.8794,0.8745,0.8742,0.8596
+Support Vector Machine,TH3-5,Basic+Hu moments+LBP+GLCM+Edge,0.9036,0.9038,0.9036,0.9037,0.8906
+Random Forest,TH3-5,Basic+Hu moments+LBP+GLCM+Edge,0.8993,0.8993,0.8993,0.8993,0.8719
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.8934,0.8957,0.8934,0.8934,0.8949
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9489,0.9501,0.9489,0.9489,0.9402
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9168,0.9168,0.9168,0.9168,0.9057
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.8818,0.8876,0.8818,0.8815,0.8675
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9474,0.9488,0.9474,0.9474,0.9287
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.908,0.9081,0.908,0.908,0.8956
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.8818,0.8871,0.8818,0.8815,0.8697
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9431,0.9452,0.9431,0.943,0.9366
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9095,0.9099,0.9095,0.9095,0.8942
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.8978,0.9011,0.8978,0.8977,0.8884
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9504,0.9514,0.9504,0.9504,0.9395
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9168,0.917,0.9168,0.9168,0.9028
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.8949,0.9001,0.8949,0.8947,0.8906
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9489,0.9501,0.9489,0.9489,0.946
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9182,0.9182,0.9182,0.9182,0.8992
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.8832,0.89,0.8832,0.8829,0.8611
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9445,0.9465,0.9445,0.9445,0.9366
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9066,0.907,0.9066,0.9066,0.8985
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.8555,0.86,0.8555,0.8552,0.8531
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9387,0.9406,0.9387,0.9387,0.9273
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9051,0.9051,0.9051,0.9051,0.8963
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.8584,0.8657,0.8584,0.858,0.8539
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9314,0.9338,0.9314,0.9314,0.9309
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9095,0.9098,0.9095,0.9095,0.8949
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8277,0.8361,0.8277,0.8271,0.8301
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9197,0.9211,0.9197,0.9197,0.9158
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8978,0.8978,0.8978,0.8978,0.8755
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.8409,0.8479,0.8409,0.8404,0.8279
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9168,0.9175,0.9168,0.9168,0.9151
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.8715,0.8717,0.8715,0.8716,0.8704
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.8905,0.8928,0.8905,0.8905,0.8863
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9401,0.9419,0.9401,0.9401,0.9345
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.908,0.908,0.908,0.908,0.8935
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.8964,0.8998,0.8964,0.8963,0.8862
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9445,0.9451,0.9445,0.9445,0.9345
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9036,0.9037,0.9036,0.9036,0.8985
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.8657,0.8706,0.8657,0.8655,0.8682
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9314,0.9323,0.9314,0.9314,0.9259
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.8891,0.8891,0.8891,0.8891,0.8942
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.8905,0.8954,0.8905,0.8903,0.8827
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9445,0.9458,0.9445,0.9445,0.941
+Random Forest,TH3-5,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9109,0.911,0.9109,0.911,0.9014
+K-Nearest Neighbors,TH3-5,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.8496,0.8562,0.8496,0.8492,0.856
+Support Vector Machine,TH3-5,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9299,0.9318,0.9299,0.9299,0.9345
+Random Forest,TH3-5,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.8832,0.8832,0.8832,0.8832,0.8863
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.8803,0.8824,0.8803,0.8802,0.869
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9182,0.9188,0.9182,0.9183,0.9122
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9007,0.9008,0.9007,0.9007,0.887
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.8745,0.8747,0.8745,0.8745,0.8625
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9241,0.9249,0.9241,0.9241,0.9179
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.8949,0.895,0.8949,0.8949,0.8927
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.8657,0.8722,0.8657,0.8654,0.838
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9226,0.9243,0.9226,0.9226,0.8913
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.892,0.8922,0.892,0.892,0.8812
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.8861,0.8898,0.8861,0.886,0.8596
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9226,0.9233,0.9226,0.9226,0.915
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9109,0.9109,0.9109,0.9109,0.8963
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8307,0.8344,0.8307,0.8304,0.8373
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8949,0.8961,0.8949,0.8949,0.8913
+Random Forest,TH3-5,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8803,0.8807,0.8803,0.8802,0.8769
+K-Nearest Neighbors,TH3-5,Zernike moments+Hu moments+LBP+GLCM+Edge,0.8599,0.8619,0.8599,0.8598,0.856
+Support Vector Machine,TH3-5,Zernike moments+Hu moments+LBP+GLCM+Edge,0.8993,0.9006,0.8993,0.8993,0.8963
+Random Forest,TH3-5,Zernike moments+Hu moments+LBP+GLCM+Edge,0.8657,0.8657,0.8657,0.8657,0.8618
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9095,0.9113,0.9095,0.9095,0.892
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9474,0.9488,0.9474,0.9474,0.9388
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.927,0.927,0.927,0.927,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.8905,0.894,0.8905,0.8904,0.8848
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.946,0.9474,0.946,0.946,0.9374
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9226,0.9227,0.9226,0.9226,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.8978,0.9015,0.8978,0.8977,0.8863
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9445,0.9458,0.9445,0.9445,0.9424
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9255,0.9255,0.9255,0.9255,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9051,0.9071,0.9051,0.9051,0.8884
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.946,0.9477,0.946,0.946,0.9388
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.927,0.9271,0.927,0.927,0.9014
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9007,0.9045,0.9007,0.9006,0.8935
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.946,0.9472,0.946,0.946,0.9446
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9168,0.9168,0.9168,0.9168,0.9093
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.8978,0.903,0.8978,0.8976,0.8798
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.946,0.9477,0.946,0.946,0.9417
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9285,0.9285,0.9285,0.9285,0.9007
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.8774,0.8814,0.8774,0.8772,0.8711
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9372,0.9393,0.9372,0.9372,0.9259
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9066,0.9067,0.9066,0.9066,0.8985
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.8788,0.8847,0.8788,0.8786,0.8683
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9343,0.936,0.9343,0.9343,0.9323
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9153,0.9156,0.9153,0.9153,0.8963
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.8774,0.8829,0.8774,0.8771,0.8661
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9372,0.9401,0.9372,0.9372,0.9338
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9007,0.901,0.9007,0.9007,0.8985
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.8818,0.8866,0.8818,0.8816,0.8661
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9416,0.9435,0.9416,0.9416,0.9338
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9109,0.911,0.9109,0.911,0.9036
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.892,0.8941,0.892,0.8919,0.8834
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9387,0.9403,0.9387,0.9387,0.9331
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9182,0.9182,0.9182,0.9182,0.8935
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9051,0.9074,0.9051,0.9051,0.8935
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9401,0.9411,0.9401,0.9401,0.9374
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9139,0.9141,0.9139,0.9138,0.8963
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.8964,0.8987,0.8964,0.8963,0.8812
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9401,0.9413,0.9401,0.9401,0.9395
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9153,0.9158,0.9153,0.9153,0.9007
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9036,0.907,0.9036,0.9036,0.8906
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.946,0.9469,0.946,0.946,0.9402
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9226,0.9227,0.9226,0.9226,0.9006
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.8847,0.89,0.8847,0.8845,0.8704
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9343,0.9357,0.9343,0.9343,0.9352
+Random Forest,TH3-5,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9095,0.9095,0.9095,0.9095,0.892
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9036,0.9062,0.9036,0.9036,0.8733
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.927,0.9276,0.927,0.927,0.9165
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9255,0.9257,0.9255,0.9256,0.8927
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9095,0.9117,0.9095,0.9095,0.8719
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9226,0.9233,0.9226,0.9226,0.9244
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9197,0.9197,0.9197,0.9197,0.8899
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.8993,0.9024,0.8993,0.8992,0.8755
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9299,0.9305,0.9299,0.9299,0.9187
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9299,0.93,0.9299,0.9299,0.8906
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9022,0.9057,0.9022,0.9021,0.887
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9328,0.9336,0.9328,0.9329,0.923
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9182,0.9183,0.9182,0.9183,0.8906
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8876,0.8924,0.8876,0.8874,0.8719
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9241,0.9256,0.9241,0.9241,0.9079
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9139,0.9144,0.9139,0.9139,0.8862
+K-Nearest Neighbors,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9036,0.9049,0.9036,0.9036,0.8719
+Support Vector Machine,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9197,0.9202,0.9197,0.9197,0.9071
+Random Forest,TH3-5,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.8964,0.8968,0.8964,0.8963,0.8798
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.8847,0.8881,0.8847,0.8846,0.8841
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.946,0.9474,0.946,0.946,0.9352
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9197,0.9198,0.9197,0.9197,0.9042
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9022,0.9062,0.9022,0.9021,0.8963
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9474,0.9488,0.9474,0.9474,0.9446
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9109,0.9112,0.9109,0.911,0.905
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.8759,0.8829,0.8759,0.8756,0.8654
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9416,0.9432,0.9416,0.9416,0.9338
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9051,0.9053,0.9051,0.9051,0.8927
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.8905,0.8965,0.8905,0.8903,0.8863
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9474,0.949,0.9474,0.9474,0.9424
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9153,0.9153,0.9153,0.9153,0.9007
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8496,0.8581,0.8496,0.8491,0.8445
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9314,0.9346,0.9314,0.9313,0.9316
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8905,0.8905,0.8905,0.8905,0.8985
+K-Nearest Neighbors,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.892,0.8961,0.892,0.8918,0.8899
+Support Vector Machine,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9416,0.9432,0.9416,0.9416,0.9352
+Random Forest,TH3-5,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.908,0.9081,0.908,0.908,0.8963
+K-Nearest Neighbors,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.8832,0.8873,0.8832,0.8831,0.8639
+Support Vector Machine,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9197,0.9204,0.9197,0.9197,0.915
+Random Forest,TH3-5,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9095,0.9095,0.9095,0.9095,0.8862
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.8949,0.8974,0.8949,0.8948,0.8877
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9445,0.9458,0.9445,0.9445,0.9367
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9226,0.9226,0.9226,0.9226,0.9021
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9022,0.9053,0.9022,0.9021,0.8956
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.946,0.9469,0.946,0.946,0.9424
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9212,0.9213,0.9212,0.9211,0.9014
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.8832,0.8894,0.8832,0.8829,0.8855
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.946,0.9474,0.946,0.946,0.9395
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9197,0.9197,0.9197,0.9197,0.9043
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.8993,0.9028,0.8993,0.8992,0.8949
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9489,0.9504,0.9489,0.9489,0.9381
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9241,0.9241,0.9241,0.9241,0.9057
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.8774,0.8841,0.8774,0.8771,0.8712
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9416,0.9443,0.9416,0.9416,0.9345
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9153,0.9154,0.9153,0.9153,0.8992
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.8964,0.8994,0.8964,0.8963,0.8827
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9416,0.9429,0.9416,0.9416,0.9352
+Random Forest,TH3-5,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9109,0.9112,0.9109,0.9109,0.8999
+K-Nearest Neighbors,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9066,0.9087,0.9066,0.9065,0.882
+Support Vector Machine,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9285,0.929,0.9285,0.9285,0.9165
+Random Forest,TH3-5,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9255,0.9255,0.9255,0.9255,0.8942
+K-Nearest Neighbors,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.8861,0.8902,0.8861,0.886,0.8899
+Support Vector Machine,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.946,0.9474,0.946,0.946,0.9417
+Random Forest,TH3-5,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.908,0.908,0.908,0.908,0.9028
+K-Nearest Neighbors,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9007,0.9045,0.9007,0.9006,0.8942
+Support Vector Machine,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9431,0.9445,0.9431,0.9431,0.9395
+Random Forest,TH3-5,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9153,0.9153,0.9153,0.9153,0.9079

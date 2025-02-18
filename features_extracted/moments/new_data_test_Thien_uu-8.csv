@@ -1,0 +1,658 @@
+Model,Dataset,Feature Combination,Accuracy,Precision,Recall,F1 Score,CV_scores(5fold)
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis,0.9179,0.9198,0.9179,0.9178,0.9191
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis,0.9582,0.9583,0.9582,0.9582,0.9517
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis,0.9265,0.9265,0.9265,0.9265,0.9475
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments,0.9496,0.9505,0.9496,0.9496,0.9574
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments,0.9625,0.9625,0.9625,0.9625,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments,0.9568,0.9569,0.9568,0.9568,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments,0.9395,0.9405,0.9395,0.9395,0.9418
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments,0.951,0.951,0.951,0.951,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments,0.9467,0.9468,0.9467,0.9467,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+LBP,0.928,0.9298,0.928,0.9279,0.9234
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+LBP,0.9539,0.9539,0.9539,0.9539,0.961
+Random Forest,Thien_uu-8,Basic+Enhanced Color+LBP,0.9337,0.9339,0.9337,0.9337,0.9475
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+GLCM,0.9251,0.9263,0.9251,0.9251,0.934
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+GLCM,0.9481,0.9482,0.9481,0.9481,0.9645
+Random Forest,Thien_uu-8,Basic+Enhanced Color+GLCM,0.928,0.9281,0.928,0.9279,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Edge,0.928,0.9295,0.928,0.9279,0.9312
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Edge,0.951,0.951,0.951,0.951,0.9581
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Edge,0.9352,0.9352,0.9352,0.9352,0.9468
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments,0.9467,0.9476,0.9467,0.9467,0.9503
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments,0.9568,0.9568,0.9568,0.9568,0.9666
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments,0.9467,0.947,0.9467,0.9467,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments,0.9395,0.9403,0.9395,0.9395,0.9319
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments,0.9553,0.9554,0.9553,0.9553,0.9532
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments,0.9409,0.941,0.9409,0.9409,0.9517
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+LBP,0.8948,0.8982,0.8948,0.8947,0.9092
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+LBP,0.9337,0.9338,0.9337,0.9337,0.951
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+LBP,0.9207,0.9207,0.9207,0.9207,0.9397
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM,0.8991,0.9006,0.8991,0.8991,0.912
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM,0.9409,0.9409,0.9409,0.9409,0.9489
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM,0.9222,0.9222,0.9222,0.9222,0.9397
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Edge,0.915,0.9161,0.915,0.915,0.9156
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Edge,0.9438,0.9438,0.9438,0.9438,0.9482
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Edge,0.9265,0.9265,0.9265,0.9265,0.9383
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments,0.9467,0.9476,0.9467,0.9467,0.9468
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments,0.9597,0.9597,0.9597,0.9597,0.9624
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments,0.951,0.951,0.951,0.951,0.9546
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+LBP,0.9467,0.9474,0.9467,0.9467,0.9517
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+LBP,0.9568,0.9568,0.9568,0.9568,0.9596
+Random Forest,Thien_uu-8,Basic+Zernike moments+LBP,0.951,0.951,0.951,0.951,0.9546
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+GLCM,0.9481,0.9485,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+GLCM,0.9597,0.9597,0.9597,0.9597,0.9631
+Random Forest,Thien_uu-8,Basic+Zernike moments+GLCM,0.9496,0.9496,0.9496,0.9496,0.9567
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Edge,0.9467,0.9474,0.9467,0.9467,0.9525
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Edge,0.9611,0.9611,0.9611,0.9611,0.9645
+Random Forest,Thien_uu-8,Basic+Zernike moments+Edge,0.9539,0.9539,0.9539,0.9539,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+LBP,0.9337,0.9356,0.9337,0.9337,0.9319
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+LBP,0.9481,0.9481,0.9481,0.9481,0.951
+Random Forest,Thien_uu-8,Basic+Hu moments+LBP,0.9409,0.941,0.9409,0.9409,0.9482
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+GLCM,0.9352,0.9358,0.9352,0.9352,0.9404
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+GLCM,0.9539,0.9539,0.9539,0.9539,0.9525
+Random Forest,Thien_uu-8,Basic+Hu moments+GLCM,0.9366,0.9367,0.9366,0.9366,0.9489
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+Edge,0.9337,0.935,0.9337,0.9337,0.9319
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+Edge,0.9452,0.9452,0.9452,0.9452,0.951
+Random Forest,Thien_uu-8,Basic+Hu moments+Edge,0.9409,0.9411,0.9409,0.9409,0.9454
+K-Nearest Neighbors,Thien_uu-8,Basic+LBP+GLCM,0.9049,0.9061,0.9049,0.9049,0.9184
+Support Vector Machine,Thien_uu-8,Basic+LBP+GLCM,0.9337,0.9337,0.9337,0.9337,0.951
+Random Forest,Thien_uu-8,Basic+LBP+GLCM,0.9179,0.9179,0.9179,0.9178,0.9383
+K-Nearest Neighbors,Thien_uu-8,Basic+LBP+Edge,0.9092,0.9123,0.9092,0.9092,0.9184
+Support Vector Machine,Thien_uu-8,Basic+LBP+Edge,0.938,0.938,0.938,0.938,0.951
+Random Forest,Thien_uu-8,Basic+LBP+Edge,0.9251,0.9251,0.9251,0.9251,0.9326
+K-Nearest Neighbors,Thien_uu-8,Basic+GLCM+Edge,0.9164,0.9174,0.9164,0.9164,0.9241
+Support Vector Machine,Thien_uu-8,Basic+GLCM+Edge,0.9352,0.9352,0.9352,0.9352,0.9468
+Random Forest,Thien_uu-8,Basic+GLCM+Edge,0.9207,0.9209,0.9207,0.9207,0.9347
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9539,0.9547,0.9539,0.9539,0.956
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9611,0.9612,0.9611,0.9611,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9539,0.954,0.9539,0.9539,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments,0.9308,0.9342,0.9308,0.9308,0.9141
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments,0.9524,0.9525,0.9524,0.9525,0.9603
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments,0.9496,0.9498,0.9496,0.9496,0.9596
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP,0.8199,0.8287,0.8199,0.8191,0.8346
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP,0.8934,0.8934,0.8934,0.8934,0.8886
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP,0.8862,0.8863,0.8862,0.8861,0.8687
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM,0.8401,0.8481,0.8401,0.8395,0.8488
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM,0.9063,0.9072,0.9063,0.9063,0.9042
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM,0.8761,0.8761,0.8761,0.8761,0.873
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Edge,0.7954,0.8046,0.7954,0.7944,0.7977
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Edge,0.8876,0.8904,0.8876,0.8875,0.8758
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Edge,0.8444,0.8445,0.8444,0.8444,0.841
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments,0.9438,0.9449,0.9438,0.9438,0.9546
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments,0.964,0.9641,0.964,0.964,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments,0.951,0.951,0.951,0.951,0.9624
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+LBP,0.9409,0.9423,0.9409,0.9409,0.9517
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+LBP,0.964,0.964,0.964,0.964,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+LBP,0.9597,0.9597,0.9597,0.9597,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+GLCM,0.9597,0.9602,0.9597,0.9597,0.9588
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+GLCM,0.9654,0.9654,0.9654,0.9654,0.9702
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.9645
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Edge,0.9452,0.9468,0.9452,0.9452,0.956
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Edge,0.9568,0.9572,0.9568,0.9568,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Edge,0.9539,0.9539,0.9539,0.9539,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+LBP,0.9006,0.9059,0.9006,0.9004,0.9163
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+LBP,0.9553,0.9553,0.9553,0.9553,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+LBP,0.9452,0.9455,0.9452,0.9453,0.9581
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+GLCM,0.9366,0.9385,0.9366,0.9366,0.9319
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+GLCM,0.9568,0.9568,0.9568,0.9568,0.9638
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+GLCM,0.9452,0.9454,0.9452,0.9453,0.9574
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+Edge,0.9352,0.9372,0.9352,0.9351,0.934
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+Edge,0.9568,0.9568,0.9568,0.9568,0.9631
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+Edge,0.9481,0.9484,0.9481,0.9481,0.9553
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+LBP+GLCM,0.8271,0.8315,0.8271,0.8268,0.8431
+Support Vector Machine,Thien_uu-8,Enhanced Color+LBP+GLCM,0.9006,0.9006,0.9006,0.9006,0.9063
+Random Forest,Thien_uu-8,Enhanced Color+LBP+GLCM,0.8559,0.8571,0.8559,0.8557,0.8765
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+LBP+Edge,0.8228,0.8293,0.8228,0.8222,0.8318
+Support Vector Machine,Thien_uu-8,Enhanced Color+LBP+Edge,0.8991,0.8992,0.8991,0.8991,0.89
+Random Forest,Thien_uu-8,Enhanced Color+LBP+Edge,0.8617,0.862,0.8617,0.8616,0.863
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+GLCM+Edge,0.8256,0.8294,0.8256,0.8254,0.8375
+Support Vector Machine,Thien_uu-8,Enhanced Color+GLCM+Edge,0.9121,0.913,0.9121,0.9121,0.9006
+Random Forest,Thien_uu-8,Enhanced Color+GLCM+Edge,0.8501,0.8506,0.8501,0.85,0.8574
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments,0.9452,0.9453,0.9452,0.9453,0.9496
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments,0.9597,0.9597,0.9597,0.9597,0.9581
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments,0.951,0.9512,0.951,0.951,0.9546
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP,0.9366,0.9374,0.9366,0.9366,0.9468
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP,0.9539,0.9539,0.9539,0.9539,0.9588
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP,0.9496,0.9496,0.9496,0.9496,0.9553
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM,0.9452,0.9454,0.9452,0.9453,0.9503
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM,0.9568,0.9569,0.9568,0.9568,0.9631
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM,0.9496,0.9498,0.9496,0.9496,0.9574
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Edge,0.9524,0.9525,0.9524,0.9525,0.9482
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Edge,0.9582,0.9583,0.9582,0.9582,0.9588
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Edge,0.9539,0.954,0.9539,0.9539,0.9546
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP,0.889,0.8933,0.889,0.8889,0.9084
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP,0.9366,0.9366,0.9366,0.9366,0.9496
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP,0.9366,0.9368,0.9366,0.9366,0.9489
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM,0.9222,0.923,0.9222,0.9222,0.9163
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM,0.9467,0.947,0.9467,0.9467,0.9496
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM,0.9438,0.9438,0.9438,0.9438,0.9496
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+Edge,0.9193,0.9211,0.9193,0.9193,0.9205
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+Edge,0.9481,0.9482,0.9481,0.9481,0.9447
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+Edge,0.9424,0.9424,0.9424,0.9424,0.9489
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM,0.7954,0.8003,0.7954,0.7949,0.8119
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM,0.8545,0.858,0.8545,0.8543,0.873
+Random Forest,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM,0.8357,0.8366,0.8357,0.8357,0.8382
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+LBP+Edge,0.7839,0.7871,0.7839,0.7836,0.7764
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+LBP+Edge,0.8487,0.8497,0.8487,0.8487,0.8708
+Random Forest,Thien_uu-8,Skewness and Kurtosis+LBP+Edge,0.804,0.8055,0.804,0.804,0.8226
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+GLCM+Edge,0.7853,0.7864,0.7853,0.7853,0.8048
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+GLCM+Edge,0.8631,0.8656,0.8631,0.863,0.8779
+Random Forest,Thien_uu-8,Skewness and Kurtosis+GLCM+Edge,0.8213,0.8219,0.8213,0.8213,0.8268
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+LBP,0.938,0.9392,0.938,0.938,0.9361
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+LBP,0.9539,0.9539,0.9539,0.9539,0.9553
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+LBP,0.9496,0.9496,0.9496,0.9496,0.9517
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+GLCM,0.951,0.9513,0.951,0.951,0.9553
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+GLCM,0.9524,0.9525,0.9524,0.9525,0.9588
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+GLCM,0.9481,0.9482,0.9481,0.9481,0.9503
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+Edge,0.9352,0.9354,0.9352,0.9352,0.9475
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+Edge,0.951,0.951,0.951,0.951,0.951
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+Edge,0.9496,0.9496,0.9496,0.9496,0.9439
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+LBP+GLCM,0.9452,0.9458,0.9452,0.9453,0.9468
+Support Vector Machine,Thien_uu-8,Zernike moments+LBP+GLCM,0.9481,0.9481,0.9481,0.9481,0.9574
+Random Forest,Thien_uu-8,Zernike moments+LBP+GLCM,0.9467,0.9468,0.9467,0.9467,0.9546
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+LBP+Edge,0.9395,0.9403,0.9395,0.9395,0.9432
+Support Vector Machine,Thien_uu-8,Zernike moments+LBP+Edge,0.9524,0.9525,0.9524,0.9524,0.956
+Random Forest,Thien_uu-8,Zernike moments+LBP+Edge,0.951,0.951,0.951,0.951,0.9553
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+GLCM+Edge,0.9481,0.9484,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Zernike moments+GLCM+Edge,0.9553,0.9554,0.9553,0.9553,0.9574
+Random Forest,Thien_uu-8,Zernike moments+GLCM+Edge,0.9467,0.9467,0.9467,0.9467,0.9496
+K-Nearest Neighbors,Thien_uu-8,Hu moments+LBP+GLCM,0.8977,0.8996,0.8977,0.8977,0.912
+Support Vector Machine,Thien_uu-8,Hu moments+LBP+GLCM,0.9496,0.9496,0.9496,0.9496,0.951
+Random Forest,Thien_uu-8,Hu moments+LBP+GLCM,0.9323,0.9329,0.9323,0.9323,0.939
+K-Nearest Neighbors,Thien_uu-8,Hu moments+LBP+Edge,0.8862,0.8899,0.8862,0.886,0.8992
+Support Vector Machine,Thien_uu-8,Hu moments+LBP+Edge,0.9294,0.9297,0.9294,0.9294,0.9333
+Random Forest,Thien_uu-8,Hu moments+LBP+Edge,0.9164,0.9174,0.9164,0.9164,0.9255
+K-Nearest Neighbors,Thien_uu-8,Hu moments+GLCM+Edge,0.9366,0.9368,0.9366,0.9366,0.9248
+Support Vector Machine,Thien_uu-8,Hu moments+GLCM+Edge,0.951,0.951,0.951,0.951,0.951
+Random Forest,Thien_uu-8,Hu moments+GLCM+Edge,0.9337,0.934,0.9337,0.9337,0.9397
+K-Nearest Neighbors,Thien_uu-8,LBP+GLCM+Edge,0.7767,0.7785,0.7767,0.7766,0.7956
+Support Vector Machine,Thien_uu-8,LBP+GLCM+Edge,0.8213,0.822,0.8213,0.8213,0.8453
+Random Forest,Thien_uu-8,LBP+GLCM+Edge,0.7911,0.7911,0.7911,0.7911,0.8098
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9496,0.9505,0.9496,0.9496,0.9546
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9597,0.9597,0.9597,0.9597,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments,0.9582,0.9583,0.9582,0.9582,0.961
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.9467,0.9487,0.9467,0.9467,0.9319
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.9568,0.9568,0.9568,0.9568,0.961
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments,0.9467,0.9468,0.9467,0.9467,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.9121,0.9152,0.9121,0.912,0.9056
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.9539,0.9539,0.9539,0.9539,0.9524
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP,0.9352,0.9352,0.9352,0.9352,0.9489
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.9049,0.9081,0.9049,0.9048,0.9212
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.9467,0.9467,0.9467,0.9467,0.9553
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM,0.9308,0.9309,0.9308,0.9308,0.9517
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.9236,0.9256,0.9236,0.9236,0.9198
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.9568,0.9569,0.9568,0.9568,0.9517
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Edge,0.9236,0.9236,0.9236,0.9236,0.9496
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments,0.9481,0.9494,0.9481,0.9481,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments,0.9611,0.9611,0.9611,0.9611,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments,0.951,0.951,0.951,0.951,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP,0.9481,0.9491,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP,0.9611,0.9611,0.9611,0.9611,0.9674
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP,0.9568,0.9568,0.9568,0.9568,0.9603
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM,0.9553,0.9555,0.9553,0.9553,0.961
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM,0.9654,0.9654,0.9654,0.9654,0.9716
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM,0.9524,0.9525,0.9524,0.9525,0.9645
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Edge,0.9496,0.9505,0.9496,0.9496,0.9567
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Edge,0.964,0.964,0.964,0.964,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Edge,0.9539,0.954,0.9539,0.9539,0.9645
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP,0.9395,0.941,0.9395,0.9395,0.9397
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP,0.9524,0.9525,0.9524,0.9524,0.9681
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP,0.9481,0.9483,0.9481,0.9481,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM,0.9424,0.9436,0.9424,0.9424,0.9432
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM,0.9568,0.9568,0.9568,0.9568,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM,0.9452,0.9453,0.9452,0.9453,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+Edge,0.9395,0.9413,0.9395,0.9395,0.9404
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+Edge,0.9568,0.9568,0.9568,0.9568,0.9638
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+Edge,0.9452,0.9454,0.9452,0.9453,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM,0.9222,0.9234,0.9222,0.9222,0.9255
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM,0.9481,0.9481,0.9481,0.9481,0.9631
+Random Forest,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM,0.9294,0.9294,0.9294,0.9294,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+LBP+Edge,0.9222,0.9247,0.9222,0.9221,0.9198
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+LBP+Edge,0.9496,0.9496,0.9496,0.9496,0.9595
+Random Forest,Thien_uu-8,Basic+Enhanced Color+LBP+Edge,0.9294,0.9295,0.9294,0.9294,0.951
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+GLCM+Edge,0.9251,0.9266,0.9251,0.9251,0.9368
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+GLCM+Edge,0.9467,0.9467,0.9467,0.9467,0.9574
+Random Forest,Thien_uu-8,Basic+Enhanced Color+GLCM+Edge,0.9265,0.9265,0.9265,0.9265,0.951
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.9452,0.9458,0.9452,0.9453,0.951
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.9582,0.9583,0.9582,0.9582,0.9659
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments,0.9496,0.9497,0.9496,0.9496,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.938,0.9387,0.938,0.938,0.9503
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.9553,0.9554,0.9553,0.9553,0.9659
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP,0.9496,0.9497,0.9496,0.9496,0.9603
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.951,0.9513,0.951,0.951,0.9539
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.9625,0.9626,0.9625,0.9625,0.9638
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM,0.9481,0.9481,0.9481,0.9481,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9496,0.9498,0.9496,0.9496,0.9539
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9539,0.9539,0.9539,0.9539,0.9659
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Edge,0.9524,0.9527,0.9524,0.9525,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP,0.9179,0.9206,0.9179,0.9178,0.9255
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP,0.9553,0.9554,0.9553,0.9553,0.9567
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP,0.9424,0.9424,0.9424,0.9424,0.9489
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.928,0.9295,0.928,0.9279,0.9368
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.9539,0.9539,0.9539,0.9539,0.9532
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM,0.9409,0.9411,0.9409,0.9409,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+Edge,0.9337,0.9352,0.9337,0.9337,0.9298
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+Edge,0.951,0.951,0.951,0.951,0.9588
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+Edge,0.9395,0.9395,0.9395,0.9395,0.951
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM,0.8905,0.8941,0.8905,0.8904,0.9113
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM,0.9337,0.9337,0.9337,0.9337,0.9532
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM,0.9193,0.9193,0.9193,0.9193,0.9432
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+Edge,0.9063,0.9086,0.9063,0.9063,0.9077
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+Edge,0.9352,0.9352,0.9352,0.9352,0.9496
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+Edge,0.9193,0.9193,0.9193,0.9193,0.9411
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM+Edge,0.8948,0.8961,0.8948,0.8948,0.9156
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM+Edge,0.9395,0.9395,0.9395,0.9395,0.9454
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+GLCM+Edge,0.9193,0.9193,0.9193,0.9193,0.9383
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP,0.9366,0.9379,0.9366,0.9366,0.9475
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP,0.9568,0.9568,0.9568,0.9568,0.9574
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP,0.9496,0.9496,0.9496,0.9496,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM,0.9481,0.9483,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM,0.9568,0.9569,0.9568,0.9568,0.9603
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM,0.9481,0.9482,0.9481,0.9481,0.9567
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+Edge,0.9467,0.9474,0.9467,0.9467,0.9461
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+Edge,0.9625,0.9625,0.9625,0.9625,0.9617
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+Edge,0.9438,0.9438,0.9438,0.9438,0.9532
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+LBP+GLCM,0.9452,0.9458,0.9452,0.9453,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+LBP+GLCM,0.9553,0.9553,0.9553,0.9553,0.9688
+Random Forest,Thien_uu-8,Basic+Zernike moments+LBP+GLCM,0.9467,0.9468,0.9467,0.9467,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+LBP+Edge,0.9409,0.9418,0.9409,0.9409,0.9432
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+LBP+Edge,0.9568,0.9568,0.9568,0.9568,0.961
+Random Forest,Thien_uu-8,Basic+Zernike moments+LBP+Edge,0.951,0.9511,0.951,0.951,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+GLCM+Edge,0.951,0.9516,0.951,0.951,0.9567
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+GLCM+Edge,0.9597,0.9597,0.9597,0.9597,0.9631
+Random Forest,Thien_uu-8,Basic+Zernike moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9524,0.9546
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+LBP+GLCM,0.928,0.9289,0.928,0.928,0.9397
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+LBP+GLCM,0.951,0.951,0.951,0.951,0.956
+Random Forest,Thien_uu-8,Basic+Hu moments+LBP+GLCM,0.938,0.9382,0.938,0.938,0.951
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+LBP+Edge,0.9236,0.9263,0.9236,0.9236,0.9305
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+LBP+Edge,0.9481,0.9481,0.9481,0.9481,0.9525
+Random Forest,Thien_uu-8,Basic+Hu moments+LBP+Edge,0.9352,0.9354,0.9352,0.9352,0.9482
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+GLCM+Edge,0.9352,0.9363,0.9352,0.9352,0.9368
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+GLCM+Edge,0.9582,0.9582,0.9582,0.9582,0.9553
+Random Forest,Thien_uu-8,Basic+Hu moments+GLCM+Edge,0.9395,0.9397,0.9395,0.9395,0.9475
+K-Nearest Neighbors,Thien_uu-8,Basic+LBP+GLCM+Edge,0.9035,0.9045,0.9035,0.9035,0.9141
+Support Vector Machine,Thien_uu-8,Basic+LBP+GLCM+Edge,0.9352,0.9352,0.9352,0.9352,0.9525
+Random Forest,Thien_uu-8,Basic+LBP+GLCM+Edge,0.9222,0.9222,0.9222,0.9222,0.9333
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.951,0.9518,0.951,0.951,0.9539
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9611,0.9611,0.9611,0.9611,0.9695
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.951,0.9511,0.951,0.951,0.961
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9409,0.9423,0.9409,0.9409,0.9475
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9654,0.9654,0.9654,0.9654,0.9688
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9496,0.9498,0.9496,0.9496,0.9624
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.951,0.9513,0.951,0.951,0.9496
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.964,0.964,0.964,0.964,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9496,0.9505,0.9496,0.9496,0.9525
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9611,0.9613,0.9611,0.9611,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9524,0.9526,0.9524,0.9525,0.9624
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9078,0.9115,0.9078,0.9077,0.912
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9597,0.9597,0.9597,0.9597,0.9567
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9452,0.9454,0.9452,0.9453,0.9581
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9251,0.9276,0.9251,0.925,0.9184
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.9574
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9467,0.9469,0.9467,0.9467,0.961
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9135,0.9173,0.9135,0.9135,0.9191
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9597,0.9597,0.9597,0.9597,0.9631
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9524,0.9527,0.9524,0.9525,0.9588
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.8343,0.8435,0.8343,0.8336,0.8552
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.9107,0.9107,0.9107,0.9107,0.9177
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.8761,0.8762,0.8761,0.876,0.8772
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.8242,0.8311,0.8242,0.8236,0.836
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9092,0.9096,0.9092,0.9092,0.9056
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.879,0.8792,0.879,0.8789,0.8708
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.83,0.8394,0.83,0.8292,0.8453
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9092,0.9097,0.9092,0.9092,0.912
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.8847,0.8847,0.8847,0.8847,0.8744
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP,0.9424,0.9436,0.9424,0.9424,0.9517
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP,0.964,0.964,0.964,0.964,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP,0.951,0.9511,0.951,0.951,0.961
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM,0.9539,0.9547,0.9539,0.9539,0.9595
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM,0.9654,0.9654,0.9654,0.9654,0.9695
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.9595
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+Edge,0.9481,0.9491,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+Edge,0.964,0.9642,0.964,0.964,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+Edge,0.9496,0.9496,0.9496,0.9496,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM,0.9467,0.9474,0.9467,0.9467,0.9503
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM,0.964,0.9641,0.964,0.964,0.9709
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM,0.9539,0.954,0.9539,0.9539,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+LBP+Edge,0.9481,0.9491,0.9481,0.9481,0.9517
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+LBP+Edge,0.9654,0.9654,0.9654,0.9654,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+LBP+Edge,0.9524,0.9525,0.9524,0.9525,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+GLCM+Edge,0.9611,0.9614,0.9611,0.9611,0.9588
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9702
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9659
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM,0.9207,0.9227,0.9207,0.9207,0.9226
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM,0.9568,0.9568,0.9568,0.9568,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM,0.9424,0.9425,0.9424,0.9424,0.9596
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+LBP+Edge,0.9092,0.9141,0.9092,0.9091,0.9177
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+LBP+Edge,0.9611,0.9611,0.9611,0.9611,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+LBP+Edge,0.9395,0.9397,0.9395,0.9395,0.9574
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+GLCM+Edge,0.9352,0.9372,0.9352,0.9351,0.929
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+GLCM+Edge,0.9597,0.9597,0.9597,0.9597,0.9652
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+GLCM+Edge,0.9452,0.9454,0.9452,0.9453,0.9567
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+LBP+GLCM+Edge,0.8329,0.8364,0.8329,0.8326,0.8467
+Support Vector Machine,Thien_uu-8,Enhanced Color+LBP+GLCM+Edge,0.9035,0.9035,0.9035,0.9035,0.9042
+Random Forest,Thien_uu-8,Enhanced Color+LBP+GLCM+Edge,0.8588,0.8598,0.8588,0.8586,0.8701
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.938,0.9384,0.938,0.938,0.9503
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9539,0.9539,0.9539,0.9539,0.9581
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.951,0.9511,0.951,0.951,0.9525
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9481,0.9483,0.9481,0.9481,0.956
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9597,0.9597,0.9597,0.9597,0.9631
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.951,0.951,0.951,0.951,0.951
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9568,0.9568,0.9568,0.9568,0.9446
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9568,0.9568,0.9568,0.9568,0.9588
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9582,0.9582,0.9582,0.9582,0.9525
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.928,0.9287,0.928,0.928,0.9475
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9539,0.9539,0.9539,0.9539,0.9652
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.951,0.9511,0.951,0.951,0.9553
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9409,0.9414,0.9409,0.9409,0.9496
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9524,0.9525,0.9524,0.9525,0.9631
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9467,0.9469,0.9467,0.9467,0.9553
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9481,0.9482,0.9481,0.9481,0.9517
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9597,0.9597,0.9597,0.9597,0.9603
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9496,0.9496,0.9496,0.9496,0.9553
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.8934,0.8974,0.8934,0.8932,0.9127
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9452,0.9453,0.9452,0.9453,0.9524
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9395,0.9395,0.9395,0.9395,0.9503
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+Edge,0.9006,0.9028,0.9006,0.9005,0.9099
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+Edge,0.9452,0.9453,0.9452,0.9453,0.9525
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+Edge,0.9395,0.9395,0.9395,0.9395,0.9496
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9207,0.9224,0.9207,0.9207,0.9127
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9539,0.954,0.9539,0.9539,0.9518
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9409,0.941,0.9409,0.9409,0.9517
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM+Edge,0.8098,0.814,0.8098,0.8095,0.8048
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM+Edge,0.8588,0.8611,0.8588,0.8587,0.8864
+Random Forest,Thien_uu-8,Skewness and Kurtosis+LBP+GLCM+Edge,0.8256,0.826,0.8256,0.8257,0.8325
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM,0.9409,0.9416,0.9409,0.9409,0.9482
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM,0.9467,0.9467,0.9467,0.9467,0.9546
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM,0.9467,0.9467,0.9467,0.9467,0.951
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+LBP+Edge,0.9438,0.9447,0.9438,0.9438,0.9425
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+LBP+Edge,0.9539,0.9539,0.9539,0.9539,0.9532
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+LBP+Edge,0.951,0.951,0.951,0.951,0.9503
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+GLCM+Edge,0.9539,0.9542,0.9539,0.9539,0.9539
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+GLCM+Edge,0.9568,0.9568,0.9568,0.9568,0.9603
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9524,0.951
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+LBP+GLCM+Edge,0.9481,0.9491,0.9481,0.9481,0.9432
+Support Vector Machine,Thien_uu-8,Zernike moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9624
+Random Forest,Thien_uu-8,Zernike moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9546
+K-Nearest Neighbors,Thien_uu-8,Hu moments+LBP+GLCM+Edge,0.9063,0.9083,0.9063,0.9063,0.9063
+Support Vector Machine,Thien_uu-8,Hu moments+LBP+GLCM+Edge,0.9467,0.9467,0.9467,0.9467,0.9546
+Random Forest,Thien_uu-8,Hu moments+LBP+GLCM+Edge,0.9294,0.9301,0.9294,0.9294,0.9361
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9524,0.9536,0.9524,0.9524,0.9525
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9611,0.9611,0.9611,0.9611,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments,0.9524,0.9526,0.9524,0.9525,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9452,0.9463,0.9452,0.9452,0.9517
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9654,0.9655,0.9654,0.9654,0.9681
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP,0.9524,0.9527,0.9524,0.9525,0.9624
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9568,0.9572,0.9568,0.9568,0.9588
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9654,0.9655,0.9654,0.9654,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.9631
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.951,0.9526,0.951,0.951,0.9546
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9611,0.9611,0.9611,0.9611,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Edge,0.9539,0.954,0.9539,0.9539,0.9631
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9337,0.9363,0.9337,0.9337,0.9269
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9597,0.9597,0.9597,0.9597,0.9603
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP,0.9452,0.9453,0.9452,0.9453,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9424,0.9439,0.9424,0.9424,0.934
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9625,0.9627,0.9625,0.9625,0.961
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM,0.9452,0.9453,0.9452,0.9452,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9438,0.9455,0.9438,0.9438,0.9383
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9582,0.9582,0.9582,0.9582,0.9624
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+Edge,0.9452,0.9452,0.9452,0.9452,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.9035,0.9065,0.9035,0.9034,0.9127
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.9553,0.9554,0.9553,0.9553,0.9574
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM,0.928,0.928,0.928,0.9279,0.9489
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9135,0.916,0.9135,0.9135,0.9092
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9553,0.9553,0.9553,0.9553,0.9524
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+Edge,0.9308,0.9308,0.9308,0.9308,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9121,0.9137,0.9121,0.9121,0.9205
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9481,0.9481,0.9481,0.9481,0.9553
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+GLCM+Edge,0.9251,0.9252,0.9251,0.9251,0.9496
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9496,0.9505,0.9496,0.9496,0.9574
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9654,0.9654,0.9654,0.9654,0.9674
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP,0.9496,0.9497,0.9496,0.9496,0.9595
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.9611,0.9616,0.9611,0.9611,0.9581
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.964,0.964,0.964,0.964,0.9716
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM,0.951,0.951,0.951,0.951,0.961
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.9496,0.9507,0.9496,0.9496,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.9654,0.9654,0.9654,0.9654,0.9709
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+Edge,0.9524,0.9525,0.9524,0.9525,0.9595
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.9524,0.9528,0.9524,0.9525,0.9524
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.9611,0.9611,0.9611,0.9611,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM,0.951,0.9511,0.951,0.951,0.9659
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.9424,0.9434,0.9424,0.9424,0.9539
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.964,0.964,0.964,0.964,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+Edge,0.9539,0.954,0.9539,0.9539,0.9603
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9582,0.9587,0.9582,0.9582,0.9603
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9625,0.9625,0.9625,0.9625,0.9723
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9638
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.9409,0.9418,0.9409,0.9409,0.9439
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.9553,0.9554,0.9553,0.9553,0.9702
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM,0.9424,0.9425,0.9424,0.9424,0.9546
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+Edge,0.9352,0.9375,0.9352,0.9351,0.9368
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+Edge,0.9568,0.9568,0.9568,0.9568,0.9659
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+Edge,0.9452,0.9453,0.9452,0.9453,0.9539
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.9424,0.9436,0.9424,0.9424,0.9432
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.9553,0.9554,0.9553,0.9553,0.9702
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+GLCM+Edge,0.9467,0.9468,0.9467,0.9467,0.9567
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM+Edge,0.9135,0.9157,0.9135,0.9135,0.9248
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM+Edge,0.9481,0.9481,0.9481,0.9481,0.9624
+Random Forest,Thien_uu-8,Basic+Enhanced Color+LBP+GLCM+Edge,0.9294,0.9294,0.9294,0.9294,0.9517
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9438,0.9449,0.9438,0.9438,0.9475
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9568,0.9568,0.9568,0.9568,0.9652
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9452,0.9453,0.9452,0.9453,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9452,0.946,0.9452,0.9452,0.9546
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9611,0.9611,0.9611,0.9611,0.9617
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9452,0.9454,0.9452,0.9453,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.951,0.9514,0.951,0.951,0.9489
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9582,0.9582,0.9582,0.9582,0.9652
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.951,0.9511,0.951,0.951,0.9567
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.938,0.9387,0.938,0.938,0.951
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9597,0.9597,0.9597,0.9597,0.9652
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.951,0.9511,0.951,0.951,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9424,0.9429,0.9424,0.9424,0.9517
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9553,0.9554,0.9553,0.9553,0.9645
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9539,0.954,0.9539,0.9539,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9424,0.9429,0.9424,0.9424,0.9503
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9611,0.9611,0.9611,0.9611,0.9645
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9452,0.9454,0.9452,0.9453,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9207,0.9227,0.9207,0.9207,0.9319
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9553,0.9554,0.9553,0.9553,0.956
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9409,0.9411,0.9409,0.9409,0.9503
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9222,0.924,0.9222,0.9222,0.9262
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9539,0.9539,0.9539,0.9539,0.9588
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9366,0.9367,0.9366,0.9366,0.9475
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9308,0.9316,0.9308,0.9308,0.9333
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9553,0.9553,0.9553,0.9553,0.9546
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9424,0.9424,0.9424,0.9424,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.8919,0.8945,0.8919,0.8919,0.907
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.9366,0.9366,0.9366,0.9366,0.9525
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+LBP+GLCM+Edge,0.9222,0.9222,0.9222,0.9222,0.9454
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9424,0.9431,0.9424,0.9424,0.951
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9539,0.9539,0.9539,0.9539,0.9631
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM,0.9481,0.9481,0.9481,0.9481,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+Edge,0.9366,0.9379,0.9366,0.9366,0.9425
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+Edge,0.9568,0.9568,0.9568,0.9568,0.9596
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+Edge,0.951,0.951,0.951,0.951,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM+Edge,0.9496,0.9502,0.9496,0.9496,0.956
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9638
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+GLCM+Edge,0.9481,0.9481,0.9481,0.9481,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+LBP+GLCM+Edge,0.9424,0.9431,0.9424,0.9424,0.9489
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+LBP+GLCM+Edge,0.9553,0.9553,0.9553,0.9553,0.9681
+Random Forest,Thien_uu-8,Basic+Zernike moments+LBP+GLCM+Edge,0.9452,0.9454,0.9452,0.9453,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Hu moments+LBP+GLCM+Edge,0.928,0.9289,0.928,0.928,0.934
+Support Vector Machine,Thien_uu-8,Basic+Hu moments+LBP+GLCM+Edge,0.9568,0.9569,0.9568,0.9568,0.961
+Random Forest,Thien_uu-8,Basic+Hu moments+LBP+GLCM+Edge,0.938,0.9382,0.938,0.938,0.9475
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9496,0.9505,0.9496,0.9496,0.9489
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.964,0.964,0.964,0.964,0.9688
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9524,0.9525,0.9524,0.9525,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9481,0.9487,0.9481,0.9481,0.9475
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9625,0.9626,0.9625,0.9625,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9524,0.9526,0.9524,0.9525,0.961
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.951,0.9516,0.951,0.951,0.9532
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9625,0.9627,0.9625,0.9625,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9539,0.954,0.9539,0.9539,0.9645
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9424,0.9434,0.9424,0.9424,0.951
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.964,0.964,0.964,0.964,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9496,0.9497,0.9496,0.9496,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9467,0.9481,0.9467,0.9467,0.951
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9669,0.9669,0.9669,0.9669,0.9674
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9524,0.9525,0.9524,0.9525,0.9638
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9524,0.9529,0.9524,0.9525,0.9524
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9659
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.951,0.9511,0.951,0.951,0.9624
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9092,0.9136,0.9092,0.9091,0.9099
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9524,0.9525,0.9524,0.9525,0.9624
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9409,0.941,0.9409,0.9409,0.9603
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.902,0.9066,0.902,0.9019,0.9106
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9582,0.9582,0.9582,0.9582,0.9567
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9424,0.9426,0.9424,0.9424,0.9595
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9179,0.9218,0.9179,0.9178,0.9191
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9611,0.9612,0.9611,0.9611,0.9581
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9481,0.9484,0.9481,0.9481,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.8415,0.8505,0.8415,0.8408,0.8637
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9121,0.9122,0.9121,0.9121,0.9191
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.8746,0.8748,0.8746,0.8746,0.8843
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9524,0.9529,0.9524,0.9525,0.9553
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.964,0.964,0.964,0.964,0.9695
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.951,0.951,0.951,0.951,0.9617
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9467,0.9474,0.9467,0.9467,0.9489
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.964,0.964,0.964,0.964,0.9659
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9524,0.9525,0.9524,0.9525,0.9596
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9553,0.9562,0.9553,0.9553,0.9588
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9709
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9595
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9424,0.9434,0.9424,0.9424,0.9553
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9625,0.9626,0.9625,0.9625,0.9695
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9659
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9164,0.9202,0.9164,0.9163,0.9212
+Support Vector Machine,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9568,0.9568,0.9568,0.9568,0.9652
+Random Forest,Thien_uu-8,Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9467,0.9467,0.9467,0.9467,0.9596
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9395,0.9401,0.9395,0.9395,0.9446
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9553,0.9553,0.9553,0.9553,0.9603
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9524,0.9525,0.9524,0.9525,0.9525
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.938,0.9382,0.938,0.938,0.9461
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9539,0.9539,0.9539,0.9539,0.9603
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9568,0.9568,0.9568,0.9568,0.9539
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.951,0.9511,0.951,0.951,0.9553
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9582,0.9583,0.9582,0.9582,0.9617
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9524,0.9517
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.928,0.9289,0.928,0.928,0.9489
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9631
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9496,0.9497,0.9496,0.9496,0.9546
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.902,0.9048,0.902,0.9019,0.9035
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9553,0.9553,0.9553,0.9553,0.951
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9366,0.9369,0.9366,0.9366,0.9468
+K-Nearest Neighbors,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM+Edge,0.9438,0.9449,0.9438,0.9438,0.9432
+Support Vector Machine,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM+Edge,0.9496,0.9496,0.9496,0.9496,0.9574
+Random Forest,Thien_uu-8,Zernike moments+Hu moments+LBP+GLCM+Edge,0.9467,0.9467,0.9467,0.9467,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.951,0.9518,0.951,0.951,0.9525
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.964,0.964,0.964,0.964,0.9681
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP,0.9524,0.9525,0.9524,0.9525,0.9624
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9539,0.9545,0.9539,0.9539,0.956
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9683,0.9684,0.9683,0.9683,0.9695
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM,0.9539,0.9539,0.9539,0.9539,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9568,0.9576,0.9568,0.9568,0.9517
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9611,0.9611,0.9611,0.9611,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+Edge,0.9467,0.9468,0.9467,0.9467,0.961
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9467,0.9474,0.9467,0.9467,0.9532
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9669,0.9669,0.9669,0.9669,0.9681
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM,0.9539,0.9539,0.9539,0.9539,0.9638
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9481,0.9491,0.9481,0.9481,0.9525
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.9654,0.9654,0.9654,0.9654,0.9702
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+Edge,0.951,0.9512,0.951,0.951,0.9659
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9524,0.9529,0.9524,0.9525,0.9567
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9654,0.9654,0.9654,0.9654,0.9702
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.961
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.928,0.9305,0.928,0.9279,0.9305
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9597,0.9597,0.9597,0.9596,0.9652
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM,0.9409,0.941,0.9409,0.9409,0.9546
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9337,0.9367,0.9337,0.9337,0.9312
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9582,0.9582,0.9582,0.9582,0.9631
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+Edge,0.9438,0.9439,0.9438,0.9438,0.9567
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9452,0.9465,0.9452,0.9452,0.9333
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9611,0.9612,0.9611,0.9611,0.9645
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+GLCM+Edge,0.9481,0.9482,0.9481,0.9481,0.9574
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9164,0.9189,0.9164,0.9164,0.9141
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9574
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+LBP+GLCM+Edge,0.9294,0.9295,0.9294,0.9294,0.9496
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9553,0.9557,0.9553,0.9553,0.9574
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.964,0.964,0.964,0.964,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM,0.9481,0.9482,0.9481,0.9481,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9481,0.9494,0.9481,0.9481,0.956
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9654,0.9654,0.9654,0.9654,0.9674
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+Edge,0.9481,0.9482,0.9481,0.9481,0.9603
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9582,0.9589,0.9582,0.9582,0.9567
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9716
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+GLCM+Edge,0.9539,0.954,0.9539,0.9539,0.961
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9452,0.946,0.9452,0.9452,0.9539
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9625,0.9625,0.9625,0.9625,0.9709
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+LBP+GLCM+Edge,0.9524,0.9526,0.9524,0.9525,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9395,0.9407,0.9395,0.9395,0.9432
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9568,0.9568,0.9568,0.9568,0.9681
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Hu moments+LBP+GLCM+Edge,0.9424,0.9425,0.9424,0.9424,0.956
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.938,0.9387,0.938,0.938,0.9524
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9582,0.9582,0.9582,0.9582,0.9645
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9496,0.9496,0.9496,0.9496,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9438,0.9445,0.9438,0.9438,0.9468
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9568,0.9568,0.9568,0.9568,0.9638
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9452,0.9454,0.9452,0.9453,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9529,0.9524,0.9525,0.9539
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9659
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.951,0.951,0.951,0.951,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9352,0.936,0.9352,0.9352,0.9489
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9582,0.9582,0.9582,0.9582,0.9673
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.951,0.951,0.951,0.951,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9222,0.9237,0.9222,0.9222,0.9312
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9553,0.9553,0.9553,0.9553,0.9588
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.938,0.9382,0.938,0.938,0.9525
+K-Nearest Neighbors,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9409,0.9418,0.9409,0.9409,0.9482
+Support Vector Machine,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9666
+Random Forest,Thien_uu-8,Basic+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9452,0.9453,0.9452,0.9452,0.9539
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9539,0.9543,0.9539,0.9539,0.951
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9654,0.9654,0.9654,0.9654,0.9659
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9524,0.9526,0.9524,0.9525,0.9595
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9467,0.9481,0.9467,0.9467,0.9524
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9683,0.9683,0.9683,0.9683,0.9688
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9496,0.9496,0.9496,0.9496,0.9631
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9496,0.9505,0.9496,0.9496,0.9539
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.964,0.964,0.964,0.964,0.9645
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9581
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9481,0.9487,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.964,0.964,0.964,0.964,0.9681
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9638
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9164,0.9202,0.9164,0.9163,0.912
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.961
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9452,0.9454,0.9452,0.9453,0.9595
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9481,0.9489,0.9481,0.9481,0.9588
+Support Vector Machine,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.964,0.964,0.964,0.964,0.9702
+Random Forest,Thien_uu-8,Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9496,0.9496,0.9496,0.9496,0.9603
+K-Nearest Neighbors,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9424,0.9428,0.9424,0.9424,0.951
+Support Vector Machine,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.951,0.951,0.951,0.951,0.9603
+Random Forest,Thien_uu-8,Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9524,0.9525,0.9524,0.9524,0.9517
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9539,0.9542,0.9539,0.9539,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.9683,0.9684,0.9683,0.9683,0.9666
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM,0.951,0.9511,0.951,0.951,0.9624
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9496,0.9505,0.9496,0.9496,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.964,0.964,0.964,0.964,0.9709
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+Edge,0.9524,0.9525,0.9524,0.9525,0.9617
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9524,0.9533,0.9524,0.9525,0.9588
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9669,0.9669,0.9669,0.9669,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+GLCM+Edge,0.9496,0.9496,0.9496,0.9496,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9481,0.9489,0.9481,0.9481,0.9532
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.964,0.964,0.964,0.964,0.9702
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+LBP+GLCM+Edge,0.9524,0.9525,0.9524,0.9525,0.9595
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9337,0.9356,0.9337,0.9337,0.9354
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9582,0.9582,0.9582,0.9582,0.9638
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Hu moments+LBP+GLCM+Edge,0.9409,0.941,0.9409,0.9409,0.9553
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9496,0.9501,0.9496,0.9496,0.9588
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9611,0.9611,0.9611,0.9611,0.9709
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Zernike moments+Hu moments+LBP+GLCM+Edge,0.951,0.951,0.951,0.951,0.9581
+K-Nearest Neighbors,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9409,0.9418,0.9409,0.9409,0.9482
+Support Vector Machine,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9611,0.9611,0.9611,0.9611,0.9681
+Random Forest,Thien_uu-8,Basic+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9496,0.9497,0.9496,0.9496,0.9581
+K-Nearest Neighbors,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.951,0.9516,0.951,0.951,0.9553
+Support Vector Machine,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.964,0.964,0.964,0.964,0.9666
+Random Forest,Thien_uu-8,Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.951,0.9511,0.951,0.951,0.9588
+K-Nearest Neighbors,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9496,0.9502,0.9496,0.9496,0.9553
+Support Vector Machine,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.964,0.964,0.964,0.964,0.9688
+Random Forest,Thien_uu-8,Basic+Enhanced Color+Skewness and Kurtosis+Zernike moments+Hu moments+LBP+GLCM+Edge,0.9539,0.9539,0.9539,0.9539,0.9603

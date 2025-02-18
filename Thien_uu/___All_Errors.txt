@@ -1,9 +1,0 @@
-CorrelationId: fc4eb738-7f35-478c-8ad4-fa643486afa9
-UTC DateTime: 09/04/2022 15:30:52
-
-The following files/folders have not been downloaded
-0. Thien_uu/Thien_uu-8/DSC6941_idx22.png
-1. Thien_uu/Thien_uu-8/DSC6941_idx23.png
-2. Thien_uu/Thien_uu-8/DSC6941_idx25.png
-3. Thien_uu/Thien_uu-8/DSC6941_idx26.png
-4. Thien_uu/Thien_uu-8/DSC6941_idx28.png
