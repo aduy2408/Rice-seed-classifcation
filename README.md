@@ -5,7 +5,11 @@ A comprehensive machine learning project for classifying different varieties of 
 
 Some papers for referencing which uses the same dataset:
 https://www.mica.edu.vn/perso/Vu-Hai/8013a377.pdf
+
+
 https://www.sciencedirect.com/science/article/pii/S2405844024099729
+
+
 https://www.sciencedirect.com/science/article/pii/S1574954125000536
 
 ##  Overview
@@ -21,17 +25,15 @@ This project implements an automated rice seed classification system that can id
 
 ## Rice Varieties in Dataset
 
-The system currently supports classification of the following rice varieties:
-
-- **BC-15**: A high-yield variety
-- **Huong Thom (Huongthom)**: Fragrant rice variety
-- **Nep-87 (Nep87)**: Glutinous rice variety
-- **Q-5 (Q5)**: Quality rice variety
-- **Thien Uu (Thien_uu)**: Premium rice variety
-- **Xi-23 (Xi23)**: Specialty rice variety
-- **TBR-36**: Traditional variety
-- **TBR-45**: Traditional variety
-- **TH3-5**: Hybrid variety
+- **BC-15**
+- **Huong Thom (Huongthom)**
+- **Nep-87 (Nep87)**
+- **Q-5 (Q5)**
+- **Thien Uu (Thien_uu)**
+- **Xi-23 (Xi23)**
+- **TBR-36**
+- **TBR-45**
+- **TH3-5**
 
 ## Feature Extraction
 
